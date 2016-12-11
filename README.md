@@ -14,3 +14,10 @@ I started from the solutions provided by [georgehrke](https://github.com/georgeh
 * The re-work process is directly taken from the above sources. It consists in the split of the ics file into separate events,
 * I then needed a way to purge the CalDAV server from past synchronizations before uploading any new event. I could not find a nicer way to do so than to delete the whole calendar alltogether, before creating a new one,
 * The last step involves the upload of each of the separate events onto the CalDAV server.
+
+# Variables
+The variables to update to your situation are:
+* LINK_TO_PUBLISHED_ICS_FILE : The link to the ics file published by Outlook or any other software,
+* OWNCLOUD_SERVER : the location of your CalDAV server (here, an Owncloud server),
+* USER : the username to access your CalDAV server,
+* PASSWORD : the password to access your CalDAV server.
